@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module sign_mag_add #(parameter N=4)(
+module sign_mag_add #(parameter N=8)(
     input wire [N-1:0] a, b,
     output reg [N-1:0] sum
     );
